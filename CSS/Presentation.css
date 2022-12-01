@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lobster&display=swap');
+body{
+    margin: 0;
+}
+#fond{
+    height : 100vh;
+    width : 100vw;
+    position : fixed;
+    top:0px;
+    left : 0px;
+    z-index: -10;
+}
+h1{
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    background-color: azure;
+    width: 50%;
+    padding-bottom: 5px;
+    margin-left: 25%;
+    border-radius: 3px;
+}
+div{
+    display: flex;
+    margin: 0 15% 0 15%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.d1{
+    margin: 0 20px 0 10px;
+    flex-basis: 10%;
+    height: 10%;    
+    flex-flow: column;
+    flex-grow: 0;
+    border-style: groove;
+    border-width: medium;
+    background-color: rgba(255, 99, 71, 0.35);
+}
+.i1{
+    width: 30%;
+    border-radius: 17px;
+    margin: 2px;
+}
+a{
+    color: rgb(52, 153, 255);
+}
+a:hover{
+    color: yellow;
+}
+a:checked{
+    color: purple;
+}
+.d2{
+    margin: 0;
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+.d21{
+    margin: 0;
+    flex-basis: 50%;
+    flex-grow: 1;
+    background-color: rgba(210, 210, 210, .2);
+}
+.d22{
+    margin: 20px 5% 0 10%;
+    flex-basis: 20%;
+    flex-grow: 0;   
+}
+.i2{
+    width: 100%;
+}
+.d23{
+    margin: 0;
+    margin-top: 30px;
+    flex-basis: 40%;
+    flex-grow: 1;
+    background-color: rgba(129, 126, 126, 0.6);
+}
+.d24{
+    margin: 50px 10% 0 10%;
+    flex-basis: 20%;
+    flex-grow: 0;
+    list-style: none;
+    border-style: groove;
+    background-color: rgba(207, 152, 34, 0.575);
+}
+.d25{
+    margin: 20px 0 0 85%;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.d4{
+    margin-top: 20px;
+    flex-basis: 60%;
+    justify-content: center;
+    margin-left: 0;
+    height: 20px;
+    background: rgba(210, 210, 210, .6);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+}
+.d3{
+    margin: 2% 10% 0 0;
+    background-color: rgb(255, 0, 0, 0.7);
+    border: none;
+    border-radius: 20px;
+}
+article{
+    font-family: 'Libre Baskerville', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    line-height: 150%;
+}
+.a5{
+    color: black;
+}
+.a2{
+    color: aliceblue;
+}
+.a3{
+    color: blue;
+}
+li{
+    padding: 5px;
+}
